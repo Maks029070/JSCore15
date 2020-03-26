@@ -1,0 +1,62 @@
+.container {
+	position: absolute;
+	left: 25%;
+	width: 50%;
+	margin-top: 200px;
+	background-color: grey;
+	padding: 20px;
+	box-sizing: border-box;
+}
+
+#text {
+	font-size: 20px;
+}
+
+.task1 button {
+	margin-top: 20px;
+}
+
+.task2 button, .task1 button {
+	width: 20%;
+	font-size: 20px;
+	border-radius: 5px;
+	margin-bottom: 20px;
+}
+
+.menu {
+	background-color: #A4A3A3;
+	padding: 15px;
+	box-sizing: border-box;
+	width: 350px;
+	margin-left: 32%;
+}
+
+.task3 ul {
+	display: none;
+}
+
+.task3 span {
+	padding: 5px 65px 5px 65px;
+}
+
+.task3 li {
+	list-style: none;
+	margin: 10px 0 5px -35px;
+	padding: 5px 10px 5px 10px;
+	width: 200px;
+}
+
+.task3 span, .task3 li {
+	font-size: 20px;
+	background-color: #9B9B9B;
+}
+
+.task3 span:hover, .task3 li:hover {
+	background-color: #2E2E2E;
+	color: white;
+	cursor: pointer;
+}
+
+.menu.open ul {
+	display: block;
+}
